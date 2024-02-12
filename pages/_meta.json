@@ -1,0 +1,33 @@
+{
+	"*": {
+		"theme": {
+			"sidebar": true,
+			"breadcrumb": false,
+			"toc": true,
+			"pagination": true,
+			"timestamp": false,
+			"footer": false
+		}
+	},
+	"index": "Introduction",
+	"extension-shortcuts": "Extension Shortcuts",
+	"install-extension": "Install Extension",
+	"activate-extension": "Activate Extension",
+	"update-extension": "Update Extension",
+	"manage-devices": "Manage Devices",
+	"extension-features": "Extension Features",
+	"known-limitations": "Known Limitations",
+	"whats-new": "What's New",
+	"website": {
+		"title": "Website ↗",
+		"type": "page",
+		"href": "https://superdevpro.com/",
+		"newWindow": true
+	},
+	"contact": {
+		"title": "Contact ↗",
+		"type": "page",
+		"href": "https://superdevpro.com/contact",
+		"newWindow": true
+	}
+}
