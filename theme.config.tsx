@@ -89,7 +89,7 @@ const config: DocsThemeConfig = {
 			/>
 			<meta
 				property='og:image'
-				content='https://docs.superdevpro.com/meta/og.png'
+				content='https://docs.superdevpro.com/others/mockup.png'
 			/>
 
 			<meta
@@ -110,7 +110,7 @@ const config: DocsThemeConfig = {
 			/>
 			<meta
 				name='twitter:image'
-				content='https://docs.superdevpro.com/meta/og.png'
+				content='https://docs.superdevpro.com/others/mockup.png'
 			/>
 		</>
 	),

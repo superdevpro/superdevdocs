@@ -191,7 +191,7 @@ a.nx-flex.nx-items-center.nx-gap-1.nx-py-4 svg {
 /* Link Colors Fix */
 html[class~='dark'] .nx-text-primary-600,
 html[class~='dark'] .dark\:nx-text-primary-600 {
-	color: #41ff54 !important;
+	color: #89fe65 !important;
 }
 
 html[class~='light'] .nx-text-primary-600,
