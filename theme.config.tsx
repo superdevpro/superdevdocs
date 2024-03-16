@@ -16,7 +16,7 @@ const config: DocsThemeConfig = {
 		</>
 	),
 	project: {
-		link: 'https://github.com/superdevpro/superdevdocs',
+		link: 'https://github.com/superdevpro',
 		icon: (
 			<svg
 				width='22'
