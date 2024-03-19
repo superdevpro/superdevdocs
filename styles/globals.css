@@ -66,6 +66,22 @@ html[class~='dark'] kbd {
 	background-color: transparent !important;
 }
 
+html[class~='dark'] .dark\:nx-text-gray-400 {
+	color: #e2e8f0 !important;
+}
+
+html[class~='dark'] .dark\:nx-text-gray-400:hover {
+	color: #89fe65 !important;
+}
+
+html[class~='light'] .dark\:nx-text-gray-400 {
+	color: #6b7280 !important;
+}
+
+html[class~='light'] .dark\:nx-text-gray-400:hover {
+	color: #11bd01 !important;
+}
+
 html[class~='dark'] .dark\:nx-bg-gray-50\/10 {
 	border: 1px solid #27272a !important;
 	background-color: transparent !important;
