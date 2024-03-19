@@ -52,7 +52,7 @@ html[class~='dark'] .nextra-sidebar-container {
 html[class~='dark'] kbd {
 	background-color: #27272a !important;
 	border: 1px solid #27272a !important;
-	color: #a1a1aa !important;
+	color: #e2e8f0 !important;
 }
 
 .nextra-toc div[class*='nx-shadow'],
@@ -99,18 +99,21 @@ article > main {
 }
 
 /* Sidebar Fix */
+html[class~='dark'] a.dark\:nx-text-neutral-400,
+html[class~='dark'] button.dark\:nx-text-neutral-400 {
+	color: #e2e8f0 !important;
+}
+
 html[class~='dark'] a.dark\:nx-text-neutral-400:hover,
 html[class~='dark'] button.dark\:nx-text-neutral-400:hover {
 	background-color: transparent !important;
-	color: #a1a1aa !important;
-	text-decoration: underline solid #a1a1aa !important;
+	color: #89fe65 !important;
 }
 
 html[class~='light'] a.nx-text-gray-500:hover,
 html[class~='light'] button.nx-text-gray-500:hover {
 	background-color: transparent !important;
-	color: #6b7280 !important;
-	text-decoration: underline solid #6b7280 !important;
+	color: #11bd01 !important;
 }
 
 /* Code Block Fix */
