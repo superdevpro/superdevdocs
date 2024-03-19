@@ -158,8 +158,8 @@ code:not(.nextra-code-block code) {
 }
 
 html[class~='dark'] code:not(.nextra-code-block code) {
-	background-color: #212020 !important;
-	border: 1px solid #27272a !important;
+	background-color: #242628 !important;
+	border: 1px solid #2f2f33 !important;
 }
 
 html[class~='light'] code:not(.nextra-code-block code) {
