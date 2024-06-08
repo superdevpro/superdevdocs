@@ -1,0 +1,5 @@
+export default function findBrowser() {
+	if (process.browser && navigator.brave?.isBrave) return 'Brave';
+	if (process.browser && navigator.userAgent?.includes('Edg/')) return 'Edge';
+	return 'Chrome';
+}
