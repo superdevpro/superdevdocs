@@ -9,7 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"next": "14.2.3",
+		"next": "14.2.4",
 		"nextra": "2.13.4",
 		"nextra-theme-docs": "2.13.4",
 		"react": "18.3.1",
@@ -17,16 +17,16 @@
 		"sharp": "0.33.4"
 	},
 	"devDependencies": {
-		"prettier": "3.3.1",
-		"prettier-plugin-tailwindcss": "0.6.2"
+		"prettier": "3.3.2",
+		"prettier-plugin-tailwindcss": "0.6.5"
 	},
 	"browserslist": [
-		"chrome >= 100",
-		"chromeandroid >= 100",
-		"firefox >= 100",
-		"firefoxandroid >= 100",
-		"safari >= 15.4",
-		"ios >= 15.4",
-		"edge >= 100"
+		"chrome >= 101",
+		"chromeandroid >= 101",
+		"edge >= 101",
+		"firefox >= 101",
+		"firefoxandroid >= 101",
+		"ios >= 15.5",
+		"safari >= 15.5"
 	]
 }
