@@ -1,0 +1,32 @@
+{
+	"name": "superdevdocs",
+	"version": "5.0.0",
+	"private": false,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "14.2.9",
+		"nextra": "2.13.4",
+		"nextra-theme-docs": "2.13.4",
+		"react": "18.3.1",
+		"react-dom": "18.3.1",
+		"sharp": "0.33.5"
+	},
+	"devDependencies": {
+		"prettier": "3.3.3",
+		"prettier-plugin-tailwindcss": "0.6.6"
+	},
+	"browserslist": [
+		"chrome >= 101",
+		"chromeandroid >= 101",
+		"edge >= 101",
+		"firefox >= 101",
+		"firefoxandroid >= 101",
+		"ios >= 15.5",
+		"safari >= 15.5"
+	]
+}

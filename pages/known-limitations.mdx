@@ -1,0 +1,28 @@
+# Known Limitations
+
+While SuperDev Pro is a powerful tool for web development, there are certain limitations you should be aware of to ensure a smooth experience:
+
+## With Iframe
+
+**Issue**: Some of the features won't work properly on iframe due to how iframe works.  
+**Solution**: Right-click on the iframe and choose `View Frame Source` to open a new browser tab and remove the `view-source:` prefix from the tab URL and press Enter. Now, you'll be able to use SuperDev Pro on this page.
+
+## With Shadow DOM
+
+**Issue**: Some of the features won't work properly on shadow DOM due to how shadow DOM works.  
+**Solution**: We are actively working on addressing the compatibility issues with shadow DOM. Please stay tuned for updates and enhancements while we are working on the solution.
+
+## Move Element
+
+**Issue**: Move Element feature may not work accurately on certain websites because of the `overflow: hidden` property on one or more parent elements.  
+**Solution**: No possible solution exists since changing the overflow property to visible may introduce additional complications on the website.
+
+## Export Element
+
+**Issue**: Export Element feature may not work accurately on certain websites due to the use of CSS variables.  
+**Solution**: No possible solution exists since CSS variables are hoisted, and removing them is unsafe and may introduce further complications.
+
+## Take Screenshot
+
+**Issue**: Take Screenshot feature may not capture full-page screenshots accurately on websites where the main page is unscrollable but contains one or more scrollable child elements.  
+**Solution**: No possible solution exists since the main page is unscrollable. In such cases, consider alternative methods or approaches for capturing screenshots.

@@ -1,0 +1,3 @@
+# Allow All
+User-agent: *
+Allow: /

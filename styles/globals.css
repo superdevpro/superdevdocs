@@ -1,0 +1,292 @@
+@font-face {
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/fonts/euclid-square-300.woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/euclid-square-400.woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/euclid-square-500.woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/fonts/euclid-square-600.woff2');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/euclid-square-700.woff2');
+	font-display: swap;
+}
+
+* {
+	font-family: 'Euclid', sans-serif !important;
+}
+
+/* Body Pattern */
+html[class~='dark'] body {
+	/* prettier-ignore */
+	background-image: 
+	linear-gradient(
+		#00000000 0px,
+		#09090B 300px
+	),
+	radial-gradient(
+		#313131 1px,
+		#00000000 0px
+	),
+	radial-gradient(
+		#313131 1px,
+		#00000000 0px
+	);
+	background-position:
+		0% 0%,
+		0px 0px,
+		10px 10px;
+	background-size:
+		auto,
+		20px 20px,
+		20px 20px;
+}
+
+html[class~='light'] body {
+	/* prettier-ignore */
+	background-image: 
+	linear-gradient(
+		#00000000 0px,
+		#ffffff 300px
+	),
+	radial-gradient(
+		#d1d1d1 1px,
+		#00000000 0px
+	),
+	radial-gradient(
+		#d1d1d1 1px,
+		#00000000 0px
+	);
+	background-position:
+		0% 0%,
+		0px 0px,
+		10px 10px;
+	background-size:
+		auto,
+		20px 20px,
+		20px 20px;
+}
+
+/* Dark Mode Fix */
+html[class~='dark'] body,
+html[class~='dark'] .nextra-nav-container-blur {
+	background-color: #09090b !important;
+}
+
+html[class~='dark'] kbd {
+	background-color: #27272a !important;
+	border: 1px solid #27272a !important;
+	color: #e2e8f0 !important;
+}
+
+.nextra-toc div[class*='nx-shadow'],
+.nextra-sidebar-container div[class*='nx-shadow'] {
+	display: none !important;
+}
+
+/* Navbar Fix */
+.nextra-sidebar-container li > a.nx-text-primary-600,
+.nextra-sidebar-container li > a.nx-bg-primary-100 {
+	background-color: transparent !important;
+}
+
+html[class~='dark'] .dark\:nx-text-gray-400 {
+	color: #e2e8f0 !important;
+}
+
+html[class~='dark'] .dark\:nx-text-gray-400:hover {
+	color: #89fe65 !important;
+}
+
+html[class~='light'] .dark\:nx-text-gray-400 {
+	color: #6b7280 !important;
+}
+
+html[class~='light'] .dark\:nx-text-gray-400:hover {
+	color: #11bd01 !important;
+}
+
+html[class~='dark'] .dark\:nx-bg-gray-50\/10 {
+	border: 1px solid #27272a !important;
+	background-color: transparent !important;
+}
+
+/* NavText Fix */
+.logo-text {
+	margin-left: 0.75rem !important;
+	font-weight: 600 !important;
+}
+
+/* Max Width Fix */
+.nx-max-w-\[90rem\] {
+	max-width: 1232px !important;
+}
+
+/* Spacing Fix */
+aside > .nextra-scrollbar,
+nav.nextra-toc {
+	padding-top: 2.5rem !important;
+	padding-bottom: 2.5rem !important;
+}
+
+article > main {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.nextra-toc li a {
+	padding-left: 0 !important;
+}
+
+/* Sidebar Fix */
+html[class~='dark'] a.dark\:nx-text-neutral-400,
+html[class~='dark'] button.dark\:nx-text-neutral-400 {
+	color: #e2e8f0 !important;
+}
+
+html[class~='dark'] a.dark\:nx-text-neutral-400:hover,
+html[class~='dark'] button.dark\:nx-text-neutral-400:hover {
+	background-color: transparent !important;
+	color: #89fe65 !important;
+}
+
+html[class~='light'] a.nx-text-gray-500:hover,
+html[class~='light'] button.nx-text-gray-500:hover {
+	background-color: transparent !important;
+	color: #11bd01 !important;
+}
+
+/* Code Block Fix */
+html[class~='dark'] .nextra-code-block div:first-child {
+	background-color: #000000 !important;
+	border: 1px solid #3e3c3c !important;
+	border-radius: 6px 6px 0 0 !important;
+}
+
+html[class~='light'] .nextra-code-block div:first-child {
+	background-color: #fafafa !important;
+	border: 1px solid #ededed !important;
+	border-radius: 6px 6px 0 0 !important;
+}
+
+html[class~='dark'] .nextra-code-block pre {
+	background-color: #0a0a0a !important;
+	border: 1px solid #3e3c3c !important;
+	border-radius: 6px !important;
+}
+
+html[class~='light'] .nextra-code-block pre {
+	background-color: #ffffff !important;
+	border: 1px solid #ededed !important;
+	border-radius: 6px !important;
+}
+
+.nextra-code-block * {
+	font-size: 13px !important;
+	font-family: monospace !important;
+	line-height: 20px !important;
+}
+
+/* Code Fix */
+code:not(.nextra-code-block code) {
+	padding: 0.12rem 0.25rem !important;
+	border-radius: 0.375rem !important;
+	display: inline-block !important;
+	font-size: 14px !important;
+	font-family: monospace !important;
+	line-height: 1.2 !important;
+}
+
+html[class~='dark'] code:not(.nextra-code-block code) {
+	background-color: #242628 !important;
+	border: 1px solid #2f2f33 !important;
+}
+
+html[class~='light'] code:not(.nextra-code-block code) {
+	background-color: #f7f7f7 !important;
+	border: 1px solid #ededed !important;
+}
+
+/* Breakcrumb Fix */
+div.nx-mt-16 {
+	margin-top: 2rem !important;
+}
+
+html[class~='dark'] a.nx-flex.nx-items-center.nx-gap-1.nx-py-4 {
+	border: 1px solid #27272a !important;
+}
+html[class~='light'] a.nx-flex.nx-items-center.nx-gap-1.nx-py-4 {
+	border: 1px solid #e4e4e7 !important;
+}
+
+a.nx-flex.nx-items-center.nx-gap-1.nx-py-4 {
+	border-radius: 8px !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	padding: 8px 16px !important;
+}
+
+a.nx-flex.nx-items-center.nx-gap-1.nx-py-4 svg {
+	width: 16px !important;
+	height: 16px !important;
+}
+
+/* Link Colors Fix */
+html[class~='dark'] .nx-text-primary-600,
+html[class~='dark'] .dark\:nx-text-primary-600 {
+	color: #89fe65 !important;
+}
+
+html[class~='light'] .nx-text-primary-600,
+html[class~='light'] .nx-text-primary-800 {
+	color: #11bd01 !important;
+}
+
+/* Headings Fix */
+h1 {
+	font-size: 30px !important;
+	font-weight: 600 !important;
+	letter-spacing: -0.45px !important;
+	line-height: 45px !important;
+	margin: 40px 0px 0px !important;
+	padding: 0px 0px 4px !important;
+}
+
+h2 {
+	font-size: 24px !important;
+	font-weight: 600 !important;
+	letter-spacing: -0.36px !important;
+	line-height: 36px !important;
+	margin: 32px 0px 0px !important;
+}
+
+/* Video Fix */
+video {
+	border-radius: 8px !important;
+}
