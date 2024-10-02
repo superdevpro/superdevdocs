@@ -141,7 +141,8 @@ nav.nextra-toc > .nextra-scrollbar {
 /* Hide Unwanted */
 .nextra-sidebar-footer,
 .nextra-breadcrumb,
-.nextra-toc-footer {
+.nextra-toc-footer,
+aside li li a[href^='#'] {
 	display: none !important;
 }
 
