@@ -1,41 +1,41 @@
 @font-face {
-	font-family: 'Euclid' !important;
-	font-style: normal !important;
-	font-weight: 300 !important;
-	src: url('/fonts/euclid-square-300.woff2') !important;
-	font-display: swap !important;
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/fonts/euclid-square-300.woff2');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Euclid';
 	font-style: normal;
-	font-weight: 400 !important;
-	src: url('/fonts/euclid-square-400.woff2') !important;
-	font-display: swap !important;
+	font-weight: 400;
+	src: url('/fonts/euclid-square-400.woff2');
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid' !important;
-	font-style: normal !important;
-	font-weight: 500 !important;
-	src: url('/fonts/euclid-square-500.woff2') !important;
-	font-display: swap !important;
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/euclid-square-500.woff2');
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid' !important;
-	font-style: normal !important;
-	font-weight: 600 !important;
-	src: url('/fonts/euclid-square-600.woff2') !important;
-	font-display: swap !important;
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/fonts/euclid-square-600.woff2');
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid' !important;
-	font-style: normal !important;
-	font-weight: 700 !important;
-	src: url('/fonts/euclid-square-700.woff2') !important;
-	font-display: swap !important;
+	font-family: 'Euclid';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/euclid-square-700.woff2');
+	font-display: swap;
 }
 
 * {
