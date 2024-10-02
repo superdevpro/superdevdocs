@@ -1,0 +1,16 @@
+export default {
+	'css-inspector': '🔍 CSS Inspector',
+	'live-text-editor': '✏️ Live Text Editor',
+	'fonts-changer': '🔠 Fonts Changer',
+	'list-all-fonts': '📝 List All Fonts',
+	'color-picker': '🖍️ Color Picker',
+	'color-palette': '🎨 Color Palette',
+	'move-element': '🔀 Move Element',
+	'delete-element': '🗑️ Delete Element',
+	'export-element': '📦 Export Element',
+	'extract-images': '🖼️ Extract Images',
+	'page-ruler': '📐 Page Ruler',
+	'page-outliner': '📋 Page Outliner',
+	'image-replacer': '🔄 Image Replacer',
+	'take-screenshot': '📸 Take Screenshot',
+};
