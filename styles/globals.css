@@ -99,7 +99,11 @@
 }
 
 /* Navbar Logo Fix */
-nav > a:first-child div {
+nav > a:first-child:hover {
+	opacity: 1 !important;
+}
+
+nav > a > div {
 	font-weight: 600 !important;
 	margin-left: 12px !important;
 }
@@ -155,6 +159,7 @@ aside li button,
 
 /* Colors Fix */
 .dark nav > a,
+.dark nav > div > a,
 .dark aside li a,
 .dark aside li button,
 .dark .nextra-toc a,
@@ -163,6 +168,7 @@ aside li button,
 }
 
 .light nav > a,
+.light nav > div > a,
 .light aside li a,
 .light aside li button,
 .light .nextra-toc a,
@@ -170,7 +176,7 @@ aside li button,
 	color: #334155 !important;
 }
 
-.dark nav > a:not(:first-child):hover,
+.dark nav > div > a:hover,
 .dark #headlessui-portal-root a > ._text-base,
 .dark #headlessui-portal-root span._text-primary-600,
 .dark aside li a:hover,
@@ -182,7 +188,7 @@ aside li button,
 	color: #89fe65 !important;
 }
 
-.light nav > a:not(:first-child):hover,
+.light nav > div > a:hover,
 .light #headlessui-portal-root a > ._text-base,
 .light #headlessui-portal-root span._text-primary-600,
 .light aside li a:hover,
