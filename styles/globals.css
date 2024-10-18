@@ -220,10 +220,21 @@ h2 {
 
 /* Code Fix */
 code {
+	border-radius: 6px !important;
 	font-family: monospace !important;
 	font-size: 14px !important;
 	line-height: 20px !important;
 	padding: 3px 6px !important;
+}
+
+.dark code {
+	background-color: #ffffff1a !important;
+	border: 1px solid #ffffff1a !important;
+}
+
+.light code {
+	background-color: #00000008 !important;
+	border: 1px solid #0000000a !important;
 }
 
 /* Video Fix */
